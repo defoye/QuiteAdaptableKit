@@ -103,14 +103,10 @@
 		5366362D254BBA9F00646060 /* QuiteAdaptableKit */ = {
 			isa = PBXGroup;
 			children = (
-				53663683254BBF1600646060 /* ButtonCell.swift */,
-				53663682254BBF1600646060 /* LabelCell.swift */,
-				53663647254BBAAB00646060 /* UtiityExtensions */,
+				53674F40254CAF4900F53B26 /* Exclude */,
+				53674F3F254CAEF900F53B26 /* Source */,
 				5366362E254BBA9F00646060 /* QuiteAdaptableKit.h */,
 				5366362F254BBA9F00646060 /* Info.plist */,
-				53663676254BBD4900646060 /* LoadingView.swift */,
-				5366367A254BBD7D00646060 /* ReusableUIViewController.swift */,
-				5366367E254BBE0F00646060 /* ContainerController.swift */,
 			);
 			path = QuiteAdaptableKit;
 			sourceTree = "<group>";
@@ -124,7 +120,7 @@
 			path = QuiteAdaptableKitTests;
 			sourceTree = "<group>";
 		};
-		53663647254BBAAB00646060 /* UtiityExtensions */ = {
+		53663647254BBAAB00646060 /* UtilityExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				5366364C254BBB2800646060 /* Array+Extension.swift */,
@@ -139,7 +135,27 @@
 				53663670254BBCD400646060 /* Bundle+Extension.swift */,
 				53663688254BBF5100646060 /* URLSession+Extension.swift */,
 			);
-			path = UtiityExtensions;
+			path = UtilityExtensions;
+			sourceTree = "<group>";
+		};
+		53674F3F254CAEF900F53B26 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				53663676254BBD4900646060 /* LoadingView.swift */,
+				5366367A254BBD7D00646060 /* ReusableUIViewController.swift */,
+				5366367E254BBE0F00646060 /* ContainerController.swift */,
+				53663683254BBF1600646060 /* ButtonCell.swift */,
+				53663682254BBF1600646060 /* LabelCell.swift */,
+				53663647254BBAAB00646060 /* UtilityExtensions */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		53674F40254CAF4900F53B26 /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exclude;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
