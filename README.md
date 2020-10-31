@@ -1,6 +1,6 @@
 # QuiteAdaptableKit
 
-[![CI Status](https://img.shields.io/travis/defoye/TableauxUI.svg?style=flat)](https://travis-ci.org/github/defoye/QuiteAdaptableKit)
+[![Build Status](https://travis-ci.org/defoye/QuiteAdaptableKit.svg?branch=main)](https://travis-ci.org/defoye/QuiteAdaptableKit)
 [![Version](https://img.shields.io/cocoapods/v/TableauxUI.svg?style=flat)](https://cocoapods.org/pods/QuiteAdaptableKit)
 [![License](https://img.shields.io/cocoapods/l/TableauxUI.svg?style=flat)](https://cocoapods.org/pods/QuiteAdaptableKit)
 [![Platform](https://img.shields.io/cocoapods/p/TableauxUI.svg?style=flat)](https://cocoapods.org/pods/QuiteAdaptableKit)
