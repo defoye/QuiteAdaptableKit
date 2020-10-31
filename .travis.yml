@@ -3,5 +3,5 @@ language: swift
 osx_image: xcode12
 
 xcode_project: QuiteAdaptableKit.xcodeproj # path to your xcodeproj folder
-xcode_scheme: QuiteAdaptableTests
+xcode_scheme: QuiteAdaptableKitTests
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11
