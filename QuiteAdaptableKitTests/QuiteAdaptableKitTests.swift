@@ -18,16 +18,26 @@ class QuiteAdaptableKitTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testDictionaryConverted() {
+        enum Enumeration: String {
+            case a = "a"
+            case b = "b"
+            case c = "c"
         }
+        
+        let enumDict: [Enumeration: String] = [
+            .a: "a",
+            .b: "b",
+            .c: "c"
+        ]
+        
+        let expected: [String: String] = [
+            "a": "a",
+            "b": "b",
+            "c": "c"
+        ]
+        
+        XCTAssertEqual(enumDict.convertedToRawValues(), expected)
     }
 
 }

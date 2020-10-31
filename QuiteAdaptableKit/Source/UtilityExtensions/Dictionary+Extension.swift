@@ -35,3 +35,15 @@ public extension Dictionary where Key: Hashable, Value: Any {
         return newDict
     }
 }
+
+public extension Dictionary where Key: RawRepresentable, Key.RawValue: Hashable {
+    
+    func convertedToRawValues() -> [Key.RawValue: Value] {
+        return self.reduce([:]) { (resultSoFar, pair) -> [Key.RawValue: Value] in
+            let (key, value) = pair
+            var resultSoFar = resultSoFar
+            resultSoFar[key.rawValue] = value
+            return resultSoFar
+        }
+    }
+}
