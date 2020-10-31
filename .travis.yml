@@ -4,4 +4,4 @@ osx_image: xcode12
 
 xcode_project: QuiteAdaptable.xcodeproj # path to your xcodeproj folder
 xcode_scheme: QuiteAdaptableTests
-xcode_destination: platform=iOS Simulator,OS=14.0, name=iPhone 11
+xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11
