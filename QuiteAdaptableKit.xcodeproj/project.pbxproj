@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5324DC40254DF09300473BA1 /* Dictionary+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324DC3F254DF09300473BA1 /* Dictionary+ExtensionTests.swift */; };
 		53663635254BBA9F00646060 /* QuiteAdaptableKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5366362B254BBA9F00646060 /* QuiteAdaptableKit.framework */; };
 		5366363A254BBA9F00646060 /* QuiteAdaptableKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663639254BBA9F00646060 /* QuiteAdaptableKitTests.swift */; };
 		5366363C254BBA9F00646060 /* QuiteAdaptableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5366362E254BBA9F00646060 /* QuiteAdaptableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5324DC3F254DF09300473BA1 /* Dictionary+ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+ExtensionTests.swift"; sourceTree = "<group>"; };
 		5366362B254BBA9F00646060 /* QuiteAdaptableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuiteAdaptableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5366362E254BBA9F00646060 /* QuiteAdaptableKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuiteAdaptableKit.h; sourceTree = "<group>"; };
 		5366362F254BBA9F00646060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		5324DC3E254DF06B00473BA1 /* UtilityExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5324DC3F254DF09300473BA1 /* Dictionary+ExtensionTests.swift */,
+			);
+			path = UtilityExtensionsTests;
+			sourceTree = "<group>";
+		};
 		53663621254BBA9F00646060 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 		53663638254BBA9F00646060 /* QuiteAdaptableKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				5324DC3E254DF06B00473BA1 /* UtilityExtensionsTests */,
 				53663639254BBA9F00646060 /* QuiteAdaptableKitTests.swift */,
 				5366363B254BBA9F00646060 /* Info.plist */,
 			);
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5366363A254BBA9F00646060 /* QuiteAdaptableKitTests.swift in Sources */,
+				5324DC40254DF09300473BA1 /* Dictionary+ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
