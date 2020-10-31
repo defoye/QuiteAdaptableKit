@@ -2,6 +2,9 @@ language: swift
 
 osx_image: xcode12
 
-xcode_project: QuiteAdaptableKit.xcodeproj # path to your xcodeproj folder
-xcode_scheme: QuiteAdaptableKitTests
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11
+#xcode_project: QuiteAdaptableKit.xcodeproj # path to your xcodeproj folder
+#xcode_scheme: QuiteAdaptableKitTests
+#xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11
+
+script:
+  - set -o pipefail && xcodebuild -project QuiteAdaptableKit.xcodeproj -scheme QuiteAdaptableKit -destination platform\=iOS\ Simulator,OS\=14.0,name\=iPhone\ 11 build test | xcpretty
