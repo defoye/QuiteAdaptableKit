@@ -9,15 +9,15 @@ import UIKit
 
 import UIKit
 
-protocol ContainerDelegate: class {
+public protocol ContainerDelegate: class {
     func menuButtonTapped()
 }
 
-protocol ContainerDelegator: UIViewController {
+public protocol ContainerDelegator: UIViewController {
     var containerDelegate: ContainerDelegate? { get set }
 }
 
-class ContainerController: UIViewController, ContainerDelegate {
+public class ContainerController: UIViewController, ContainerDelegate {
     private let navBar: UINavigationController
     private let containerDelegator: ContainerDelegator
     private let slideInController: UIViewController
@@ -36,7 +36,7 @@ class ContainerController: UIViewController, ContainerDelegate {
         }
     }
     
-    init(_ presenter: UINavigationController, _ containerDelegator: ContainerDelegator, slideInController: UIViewController) {
+    public init(_ presenter: UINavigationController, _ containerDelegator: ContainerDelegator, slideInController: UIViewController) {
         self.navBar = presenter
         self.containerDelegator = containerDelegator
         self.slideInController = slideInController
@@ -59,12 +59,12 @@ class ContainerController: UIViewController, ContainerDelegate {
         addViewControllerViews()
     }
     
+    public func menuButtonTapped() {
+        menuToggled = !menuToggled
+    }
+    
     private func addViewControllerViews() {
         view.addSubview(slideInController.view)
         view.addSubview(navBar.view)
-    }
-    
-    func menuButtonTapped() {
-        menuToggled = !menuToggled
     }
 }

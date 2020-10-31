@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Dictionary where Key: Hashable, Value: Any {
+public extension Dictionary where Key: Hashable, Value: Any {
     func decodedJSON<T: Decodable>(_ type: T.Type) -> T? {
         let jsonData = self
         do {

@@ -19,7 +19,6 @@
 		53663665254BBC7500646060 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663664254BBC7500646060 /* Double+Extension.swift */; };
 		53663669254BBC9400646060 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663668254BBC9400646060 /* UITableView+Extension.swift */; };
 		5366366D254BBCAF00646060 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366366C254BBCAF00646060 /* UICollectionView+Extension.swift */; };
-		53663671254BBCD400646060 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663670254BBCD400646060 /* Bundle+Extension.swift */; };
 		53663677254BBD4900646060 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663676254BBD4900646060 /* LoadingView.swift */; };
 		5366367B254BBD7D00646060 /* ReusableUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366367A254BBD7D00646060 /* ReusableUIViewController.swift */; };
 		5366367F254BBE0F00646060 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366367E254BBE0F00646060 /* ContainerController.swift */; };
@@ -54,7 +53,6 @@
 		53663664254BBC7500646060 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		53663668254BBC9400646060 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		5366366C254BBCAF00646060 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
-		53663670254BBCD400646060 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		53663676254BBD4900646060 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		5366367A254BBD7D00646060 /* ReusableUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableUIViewController.swift; sourceTree = "<group>"; };
 		5366367E254BBE0F00646060 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
@@ -82,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5324DA79254DC9A800473BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5366367A254BBD7D00646060 /* ReusableUIViewController.swift */,
+				5366367E254BBE0F00646060 /* ContainerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		53663621254BBA9F00646060 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +139,6 @@
 				53663664254BBC7500646060 /* Double+Extension.swift */,
 				53663668254BBC9400646060 /* UITableView+Extension.swift */,
 				5366366C254BBCAF00646060 /* UICollectionView+Extension.swift */,
-				53663670254BBCD400646060 /* Bundle+Extension.swift */,
 				53663688254BBF5100646060 /* URLSession+Extension.swift */,
 			);
 			path = UtilityExtensions;
@@ -141,9 +147,8 @@
 		53674F3F254CAEF900F53B26 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5324DA79254DC9A800473BA1 /* Controller */,
 				53663676254BBD4900646060 /* LoadingView.swift */,
-				5366367A254BBD7D00646060 /* ReusableUIViewController.swift */,
-				5366367E254BBE0F00646060 /* ContainerController.swift */,
 				53663683254BBF1600646060 /* ButtonCell.swift */,
 				53663682254BBF1600646060 /* LabelCell.swift */,
 				53663647254BBAAB00646060 /* UtilityExtensions */,
@@ -270,7 +275,6 @@
 				5366364D254BBB2800646060 /* Array+Extension.swift in Sources */,
 				53663669254BBC9400646060 /* UITableView+Extension.swift in Sources */,
 				53663684254BBF1600646060 /* LabelCell.swift in Sources */,
-				53663671254BBCD400646060 /* Bundle+Extension.swift in Sources */,
 				53663689254BBF5100646060 /* URLSession+Extension.swift in Sources */,
 				53663677254BBD4900646060 /* LoadingView.swift in Sources */,
 				53663651254BBB4900646060 /* Date+Extension.swift in Sources */,
