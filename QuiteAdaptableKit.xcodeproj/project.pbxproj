@@ -27,6 +27,9 @@
 		53663684254BBF1600646060 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663682254BBF1600646060 /* LabelCell.swift */; };
 		53663685254BBF1600646060 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663683254BBF1600646060 /* ButtonCell.swift */; };
 		53663689254BBF5100646060 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663688254BBF5100646060 /* URLSession+Extension.swift */; };
+		53D184062557816C00CFC772 /* RadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D184032557816C00CFC772 /* RadioCell.swift */; };
+		53D184072557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D184042557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift */; };
+		53D184082557816C00CFC772 /* RadioGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D184052557816C00CFC772 /* RadioGroupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		53663682254BBF1600646060 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 		53663683254BBF1600646060 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		53663688254BBF5100646060 /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		53D184032557816C00CFC772 /* RadioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioCell.swift; sourceTree = "<group>"; };
+		53D184042557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		53D184052557816C00CFC772 /* RadioGroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioGroupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,7 @@
 		53674F3F254CAEF900F53B26 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				53D184022557816C00CFC772 /* RadioGroup */,
 				5324DA79254DC9A800473BA1 /* Controller */,
 				53663676254BBD4900646060 /* LoadingView.swift */,
 				53663683254BBF1600646060 /* ButtonCell.swift */,
@@ -175,6 +182,16 @@
 			children = (
 			);
 			path = Exclude;
+			sourceTree = "<group>";
+		};
+		53D184022557816C00CFC772 /* RadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				53D184032557816C00CFC772 /* RadioCell.swift */,
+				53D184042557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift */,
+				53D184052557816C00CFC772 /* RadioGroupTableViewCell.swift */,
+			);
+			path = RadioGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +306,10 @@
 				5366364D254BBB2800646060 /* Array+Extension.swift in Sources */,
 				53663669254BBC9400646060 /* UITableView+Extension.swift in Sources */,
 				53663684254BBF1600646060 /* LabelCell.swift in Sources */,
+				53D184062557816C00CFC772 /* RadioCell.swift in Sources */,
+				53D184072557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */,
 				5324DFDD254E213D00473BA1 /* TextFieldTableViewCell.swift in Sources */,
+				53D184082557816C00CFC772 /* RadioGroupTableViewCell.swift in Sources */,
 				53663689254BBF5100646060 /* URLSession+Extension.swift in Sources */,
 				53663677254BBD4900646060 /* LoadingView.swift in Sources */,
 				53663651254BBB4900646060 /* Date+Extension.swift in Sources */,
