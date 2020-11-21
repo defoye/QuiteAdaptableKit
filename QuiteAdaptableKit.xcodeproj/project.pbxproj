@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5324DC40254DF09300473BA1 /* Dictionary+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324DC3F254DF09300473BA1 /* Dictionary+ExtensionTests.swift */; };
 		5324DFDD254E213D00473BA1 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324DFDC254E213D00473BA1 /* TextFieldTableViewCell.swift */; };
+		5354207B2569911800BBB21A /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354207A2569911800BBB21A /* LinePlot.swift */; };
 		53663635254BBA9F00646060 /* QuiteAdaptableKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5366362B254BBA9F00646060 /* QuiteAdaptableKit.framework */; };
 		5366363A254BBA9F00646060 /* QuiteAdaptableKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53663639254BBA9F00646060 /* QuiteAdaptableKitTests.swift */; };
 		5366363C254BBA9F00646060 /* QuiteAdaptableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5366362E254BBA9F00646060 /* QuiteAdaptableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		5324DC3F254DF09300473BA1 /* Dictionary+ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+ExtensionTests.swift"; sourceTree = "<group>"; };
 		5324DFDC254E213D00473BA1 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		5354207A2569911800BBB21A /* LinePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
 		5366362B254BBA9F00646060 /* QuiteAdaptableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuiteAdaptableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5366362E254BBA9F00646060 /* QuiteAdaptableKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuiteAdaptableKit.h; sourceTree = "<group>"; };
 		5366362F254BBA9F00646060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 			path = UtilityExtensionsTests;
 			sourceTree = "<group>";
 		};
+		535420792569910400BBB21A /* DataViz */ = {
+			isa = PBXGroup;
+			children = (
+				5354207A2569911800BBB21A /* LinePlot.swift */,
+			);
+			path = DataViz;
+			sourceTree = "<group>";
+		};
 		53663621254BBA9F00646060 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 		53674F3F254CAEF900F53B26 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				535420792569910400BBB21A /* DataViz */,
 				53D184022557816C00CFC772 /* RadioGroup */,
 				5324DA79254DC9A800473BA1 /* Controller */,
 				53663676254BBD4900646060 /* LoadingView.swift */,
@@ -307,6 +318,7 @@
 				53663669254BBC9400646060 /* UITableView+Extension.swift in Sources */,
 				53663684254BBF1600646060 /* LabelCell.swift in Sources */,
 				53D184062557816C00CFC772 /* RadioCell.swift in Sources */,
+				5354207B2569911800BBB21A /* LinePlot.swift in Sources */,
 				53D184072557816C00CFC772 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */,
 				5324DFDD254E213D00473BA1 /* TextFieldTableViewCell.swift in Sources */,
 				53D184082557816C00CFC772 /* RadioGroupTableViewCell.swift in Sources */,
